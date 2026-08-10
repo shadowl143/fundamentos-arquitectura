@@ -4,8 +4,9 @@ from datetime import date, timedelta
 from django.core.management.base import BaseCommand
 from django.utils import timezone
 
-from models import Herramienta, Prestamo
-
+from base.models import Herramienta, Prestamo
+import datetime, platform
+print(datetime.datetime.now().isoformat(), platform.node(), platform.platform())
 
 class Command(BaseCommand):
     help = 'Carga masiva de 500 préstamos con distintas combinaciones'
