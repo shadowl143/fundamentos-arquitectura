@@ -1,2 +1,2 @@
-1. https://entrenamiento-frameworks-web-python.readthedocs.io/es/latest/leccion4/introduccion_wsgi.html#aplicaciones-wsgi 10/08/2026
-2. https://flask.palletsprojects.com/es/stable/deploying/asgi/ 10/08/2026
+1. https://entrenamiento-frameworks-web-python.readthedocs.io/es/latest/leccion4/introduccion_wsgi.html#aplicaciones-wsgi en esta aparte se aprendio sobre los servidores WSGI y en un apartado muestra como como emplear el stard mod_wsgi 10/08/2026
+2. https://flask.palletsprojects.com/es/stable/deploying/asgi/ el uso de asgi el cual se adapta a la recomendacion swgi-toAsign 10/08/2026
