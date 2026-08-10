@@ -1,0 +1,2 @@
+1. https://entrenamiento-frameworks-web-python.readthedocs.io/es/latest/leccion4/introduccion_wsgi.html#aplicaciones-wsgi 10/08/2026
+2. https://flask.palletsprojects.com/es/stable/deploying/asgi/ 10/08/2026
