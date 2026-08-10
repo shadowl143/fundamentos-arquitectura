@@ -1,5 +1,6 @@
 # sync_app.py -- WSGI
 import time
+import asyncio
 from flask import Flask
 app = Flask(__name__)
 
@@ -9,11 +10,10 @@ def lento():
     return {"ok": True}
 
 # async_app.py -- ASGI
-import asyncio
 from fastapi import FastAPI
 app = FastAPI()
 
-@app.get("/lento")
+@app.get("/lento/asgi")
 async def lento():
     await asyncio.sleep(0.5) # espera NO bloqueante
     return {"ok": True}

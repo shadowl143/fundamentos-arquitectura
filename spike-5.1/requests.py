@@ -10,4 +10,4 @@ async def main(url, n=20):
         "en", round(time.perf_counter() - t0, 2), "s")
 
 asyncio.run(main("http://127.0.0.1:8001/lento"))
-asyncio.run(main("http://127.0.0.1:8002/lento"))
+asyncio.run(main("http://127.0.0.1:8002/lento/asgi"))
