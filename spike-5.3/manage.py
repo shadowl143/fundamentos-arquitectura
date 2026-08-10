@@ -2,7 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import datetime, platform
+print(datetime.datetime.now().isoformat(), platform.node(), platform.platform())
 
 def main():
     """Run administrative tasks."""
