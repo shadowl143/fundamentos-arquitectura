@@ -16,7 +16,8 @@ class Herramienta(models.Model):
 
 class Prestamo(models.Model):
     id = models.AutoField(primary_key=True)
-    solicitante = models.CharField(max_length=150, blank=True, null=True)
+    solicitante_nombre = models.CharField(max_length=75, blank=True, null=True)
+    solicitante_apellido = models.CharField(max_length=75, blank=True, null=True)
     herramienta = models.ForeignKey(
         Herramienta,
         on_delete=models.SET_NULL,
