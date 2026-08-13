@@ -15,9 +15,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import include, path
-
+from django.urls import path
+from base.views import (
+    PrestamoNestedView,
+    PrestamoNestedOptimizedView,
+    PrestamoFlatView,
+    PrestamoNestedPaginatedView,
+    PrestamoNestedOptimizedPaginatedView,
+    PrestamoFlatPaginatedView,
+)
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("api/", include("base.urls")),
+    path("prestamos/nested/", PrestamoNestedView.as_view()),
+    path("prestamos/nested-optimized/", PrestamoNestedOptimizedView.as_view()),
+    path("prestamos/flat/", PrestamoFlatView.as_view()),
+    path("prestamos/nested-paginated/", PrestamoNestedPaginatedView.as_view()),
+    path("prestamos/nested-optimized-paginated/", PrestamoNestedOptimizedPaginatedView.as_view()),
+    path("prestamos/flat-paginated/", PrestamoFlatPaginatedView.as_view()),
 ]

@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1at3#$ku^r3#0vl(bs^b7flc2+bq4k=zwy-r*jv!y=-zy*)!4y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -124,5 +124,28 @@ STATIC_URL = 'static/'
 MAILERS = {
     'default': {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
+    },
+}
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+        },
+        "sql_file": {
+            "class": "logging.FileHandler",
+            "filename": str(BASE_DIR / "sql.log"),
+            "mode": "a",
+            "encoding": "utf-8",
+        },
+    },
+    "loggers": {
+        "django.db.backends": {
+            "handlers": ["console", "sql_file"],
+            "level": "DEBUG",
+            "propagate": False,
+        },
     },
 }

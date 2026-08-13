@@ -6,6 +6,8 @@ from .models import Prestamo
 from .serializer import PrestamoNestedSerializer, PrestamoFlatSerializer
 from rest_framework.pagination import PageNumberPagination
 
+import datetime, platform
+print(datetime.datetime.now().isoformat(), platform.node(), platform.platform())
 
 class PrestamoPagination(PageNumberPagination):
     page_size = 20
