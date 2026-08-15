@@ -4,4 +4,4 @@
 **Evidencia:** docker file preparado para su uso.
 **Decisión:** el manejo en contenedores ayuda a tener un mejor contexto sobre la app.
 **Consecuencias:** automatizar los procesos y las versiones necesarias.
-**Me haría cambiar de opinión:**
+**Me haría cambiar de opinión:** Si el proyecto no es tan necesario para tener un host con docker.

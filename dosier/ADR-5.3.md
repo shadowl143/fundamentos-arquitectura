@@ -1,4 +1,4 @@
-# ADR 5.1 — Desarrollo Full-Stack con Django: Arquitectura MVT y configuración de proyectos
+# ADR 5.3 — Desarrollo Full-Stack con Django: Arquitectura MVT y configuración de proyectos
 **Contexto:** Lo que decidas aquí es lo que el docente va a abrir el día de la evaluación, desde su conexión y
 no desde la tuya. 
 **Opciones:** A =sesión de servidor, B = sesión + token para la API

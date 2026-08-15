@@ -1,4 +1,4 @@
-# ADR 5.1 — Desarrollo de Microservicios y APIs de alto rendimiento con FastAPI
+# ADR 5.2 — Desarrollo de Microservicios y APIs de alto rendimiento con FastAPI
 **Contexto:** Medir lo casos que se pueden atrapar.
 **Opciones:** ASGI (modelo asíncrono con Uvicorn/FastAPI)
 **Criterio:** Se realizan 5 casos diferentes aportando diferentes datos.
