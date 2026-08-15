@@ -10,6 +10,6 @@ def lento():
     return {"ok": True}
 
 @app.get("/lento/asgi")
-async def lento():
+async def lento_async():
     await asyncio.sleep(0.5) # espera NO bloqueante
     return {"ok": True}
