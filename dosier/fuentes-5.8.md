@@ -1,2 +1,1 @@
-1. https://datatracker.ietf.org/doc/html/rfc7519
-2. https://datatracker.ietf.org/doc/html/rfc6749
+1. https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/ en esta parte aprendi a como escribir el docker file y tenemos el apoyo de un video, no me agrado mucho que estuviera en ingles pero igual me ayudo ya que pude aplicar los subitulos.

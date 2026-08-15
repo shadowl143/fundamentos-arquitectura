@@ -1,0 +1,3 @@
+1. https://www.django-rest-framework.org/api-guide/pagination/#setting-the-pagination-style en esta parte diio una explixaxion de como manejar la paginaciones de la pagina tambien dice como limitar la cantidad maxima de paginas en la peticiones.
+2. https://docs.djangoproject.com/en/6.1/topics/db/optimization/ el explica como optimizar tus base de datos y la importancia de eso, aprendi sobre los querysets y porque es vital usarlo.
+3. https://docs.djangoproject.com/en/6.1/faq/models/#faq-see-raw-sql-queries en esat parte aprendi como utilizar el update dthe una base de datos y relizar las migraciones es un complemento de lo que vi en el modulo anterior.

@@ -1,2 +1,2 @@
-1. https://datatracker.ietf.org/doc/html/rfc7519
-2. https://datatracker.ietf.org/doc/html/rfc6749
+1. https://datatracker.ietf.org/doc/html/rfc7519 me dio una explicacion de lo que es el standar del jwt
+2. https://www-jwt-io.translate.goog/introduction?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true#what-is-json-web-token fue un complemento adicional al JWT pero viene mas detallado ya que me menciono la estructura, cuando usarlos da ejemplo que me ayudaron a formar el jwt y enteder bien como es.

@@ -1,3 +1,3 @@
-1. https://docs.djangoproject.com/en/6.1/topics/http/views/ 10/08/2026
-2. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS 10/08/2026
-2. https://docs.djangoproject.com/en/6.1/topics/templates/ 10/08/2026
+1. https://docs.djangoproject.com/en/6.1/topics/http/views/ en esta parte se e la forma de hacer los view con django ya que es un paradigma un poco distinto a lo que cconosco. 10/08/2026
+2. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS el uso de cors para permitir las conexiones con mi apis. 10/08/2026
+3. https://docs.djangoproject.com/en/6.1/topics/templates/ los template es un folder que permite agregar las view como en C# existe un la carpeta View aqui es el template. 10/08/2026
